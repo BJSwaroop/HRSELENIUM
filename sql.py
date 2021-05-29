@@ -5,7 +5,7 @@ class dbuser:
     self.mydb = connector.connect(
                                 host="localhost",
                                 user="dbuser",
-                                password="swaroop@4468",
+                                password="*******",
                                 database = "test")
     query = 'create table if not exists students(roll int,username varchar(200), code varchar(1000))'
     cur = self.mydb.cursor()
